@@ -24,3 +24,11 @@ the thought process behind your solution. It should contain:
 - Explicit detail of magic numbers. 
 - Escapes returning early values
 - Bonus points: Time and memory complexity. 
+
+In addition your verified time/memory usage for the three submissions need to be commented at the top of your main function ie
+//run number: speed number, memory usage number;
+//r1: 50%, 32%;
+//r2: 60%, 38%;
+//r1: 10%, 92%;
+
+
