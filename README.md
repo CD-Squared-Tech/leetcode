@@ -29,6 +29,6 @@ In addition your verified time/memory usage for the three submissions need to be
 //run number: speed number, memory usage number;
 //r1: 50%, 32%;
 //r2: 60%, 38%;
-//r1: 10%, 92%;
+//r3: 10%, 92%;
 
 
