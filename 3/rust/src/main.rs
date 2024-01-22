@@ -10,13 +10,14 @@ fn main() {
     println!("Hello, world!");
 }
 
+
 fn length_of_longest_substring(s: String) -> i32 {
     if s.len() == 0 {
         return 0;
     }
 
     let mut ansr = i32::min_value();
-    let mut grapheme: Vec<bool> = vec![false; 128];
+    let mut grapheme: [bool; 128] = [false; 128];
     let mut count: i32 = 0;
     let copy: Vec<char> = s.clone().chars().collect();
     let mut left: usize = 0;
